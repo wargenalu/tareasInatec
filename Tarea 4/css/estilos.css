@@ -1,0 +1,19 @@
+#caja-comentario{
+    width: 200px;
+}
+
+body{
+    margin: 20px;
+    font-family: Verdana;
+    background-image: radial-gradient(circle at 57.19% 62.45%, #ffff7a 0, #ffff81 6.25%, #f4ff89 12.5%,
+    #d9ff93 18.75%, #bcff9d 25%, #9dffa7 31.25%, #7affb0 37.5%, #53ffb6 43.75%, #10f8ba 50%, #00e8bc 56.25%,
+    #00dbbf 62.5%,  #00cfc2 68.75%, #00c5c5 75%, #00bdc9 81.25%, #00b7cf 87.5%, #00b3d5 93.75%, #00b1dd 100%);
+}
+
+input[name=email]{
+    background-color:#eeeeee;
+}
+
+p, label{
+    font-family: Tahoma;
+}
