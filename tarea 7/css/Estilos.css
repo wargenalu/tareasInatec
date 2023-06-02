@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Cinzel:wght@500&family=Dancing+Script&family=Poltawski+Nowy:ital,wght@1,400;1,700&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+position: fixed;
+width: 100%;
+height: 100%;
+}
+
+.menu{
+    width: 200px;
+    height: 100%;
+    border: 3px;
+    border-color: rgba(0, 0, 0, 0.719);
+    border-style:solid;
+}
+
+#boton-menu{
+    display: flex;
+    margin-left: 14%;
+}
+
+.menu ul li:hover{
+    background: teal;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#boton-inicio, #boton-formulario{
+    font-family: 'Castoro Titling', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poltawski Nowy', serif;
+    font-family: 'Sigmar', cursive;
+    display: flex;
+    background-color: transparent;
+    border: solid;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    padding: 1% 1% 1% 5%;
+    width: 100%;
+}
+
+p{
+    display: none;
+    background-color: rgba(228, 105, 156, 0.548);
+    height: 40px;
+    align-items: center;
+    padding-left: 20px;
+    width: 300px;
+    color: white;
+    margin-top: 10%;
+    
+}
+
+#boton-cerrar{
+    padding-left: 30%;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#saludar{
+   
+    background-color: rgb(240, 22, 77);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 10%;
+    height: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    margin-top: 15%;
+}
+
+.bienvenida{
+  
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario{
+    display: flex;
+    display: none
+}
+
+.formulario{
+    margin: auto;
+    border: solid;
+    width: 400px;
+    height: 120px;
+}
+
+input{
+    margin: 10px;
+    border-color: rgba(128, 128, 128, 0.212);
+}
+
+.correo{
+    width: 92.5%;
+}
+
+#guardar{
+    margin-left: 72%;
+    background-color: rgb(240, 22, 77);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 25%;
+    height: 25%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
