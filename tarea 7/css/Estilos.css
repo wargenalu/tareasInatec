@@ -85,7 +85,7 @@ p{
 }
 
 .bienvenida{
-    display: none;
+    display: flex;
     padding: auto;
     flex-direction: column;
     justify-content: center;
