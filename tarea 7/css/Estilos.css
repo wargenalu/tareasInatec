@@ -20,9 +20,10 @@ height: 100%;
     border-style:solid;
 }
 
-#boton-menu{
+.material-icons{
     display: flex;
-    margin-left: 14%;
+    padding-left: 17%;
+    
 }
 
 .menu ul li:hover{
@@ -84,9 +85,8 @@ p{
 }
 
 .bienvenida{
-  
+    display: none;
     padding: auto;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ p{
 
 #formulario{
     display: flex;
-    display: none
+    display: none;
 }
 
 .formulario{
